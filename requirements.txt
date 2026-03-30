@@ -1,0 +1,30 @@
+# Core RAG stack
+langchain==0.2.16
+langchain-openai==0.1.23
+langchain-community==0.2.16
+langchain-chroma==0.1.4
+
+# Vector store
+chromadb==0.5.15
+
+# PDF parsing
+pymupdf==1.24.10
+
+# OpenAI
+openai==1.45.0
+
+# SEC data fetching
+sec-edgar-downloader==5.0.3
+requests==2.32.3
+
+# UI
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.7.0
+tqdm==4.66.5
+
+# Dev / testing
+pytest==8.3.3
+jupyter==1.1.1

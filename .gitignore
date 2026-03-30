@@ -1,0 +1,42 @@
+# === Secrets — NEVER commit these ===
+.env
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# === Data — too large for git ===
+data/raw/*.pdf
+data/processed/*.txt
+data/processed/*.json
+
+# === Vector store — regenerated from data ===
+vectorstore/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+*.swp
+
+# === IDE ===
+.vscode/settings.json
+.idea/
+
+# === Logs ===
+*.log
+logs/
